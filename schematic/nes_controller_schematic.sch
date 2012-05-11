@@ -241,7 +241,7 @@ refdes=R?
 T 46500 49500 5 10 0 0 0 0 1
 device=RESISTORPACK_11
 T 46500 49300 5 10 1 1 0 0 1
-refdes=R?
+value=3.9K
 }
 C 49800 49400 1 0 0 EMBEDDED5V-plus-1.sym
 [
@@ -349,7 +349,7 @@ refdes=U?
 T 50600 47150 5 10 0 0 0 0 1
 device=4021
 T 50600 47350 5 10 0 0 0 0 1
-footprint=DIP16
+footprint=TSSOP-65P-640L1-16N
 }
 C 41500 41900 1 90 0 switch-pushbutton-nc-1.sym
 {
@@ -357,6 +357,8 @@ T 41700 41450 5 10 0 0 90 0 1
 device=SWITCH_PUSHBUTTON_NC
 T 41150 42300 5 10 1 1 90 0 1
 refdes=SR
+T 41500 41900 5 10 0 0 0 0 1
+footprint=switch
 }
 C 42200 41900 1 90 0 switch-pushbutton-nc-1.sym
 {
@@ -364,6 +366,8 @@ T 42400 41450 5 10 0 0 90 0 1
 device=SWITCH_PUSHBUTTON_NC
 T 41850 42300 5 10 1 1 90 0 1
 refdes=SL
+T 41500 41900 5 10 0 0 0 0 1
+footprint=switch
 }
 C 42900 41900 1 90 0 switch-pushbutton-nc-1.sym
 {
@@ -371,6 +375,8 @@ T 43100 41450 5 10 0 0 90 0 1
 device=SWITCH_PUSHBUTTON_NC
 T 42550 42300 5 10 1 1 90 0 1
 refdes=SD
+T 41500 41900 5 10 0 0 0 0 1
+footprint=switch
 }
 C 43600 41900 1 90 0 switch-pushbutton-nc-1.sym
 {
@@ -378,6 +384,8 @@ T 43800 41450 5 10 0 0 90 0 1
 device=SWITCH_PUSHBUTTON_NC
 T 43250 42300 5 10 1 1 90 0 1
 refdes=SU
+T 41500 41900 5 10 0 0 0 0 1
+footprint=switch
 }
 C 44200 41900 1 90 0 switch-pushbutton-nc-1.sym
 {
@@ -385,13 +393,17 @@ T 44400 41450 5 10 0 0 90 0 1
 device=SWITCH_PUSHBUTTON_NC
 T 43850 42300 5 10 1 1 90 0 1
 refdes=ST
+T 41500 41900 5 10 0 0 0 0 1
+footprint=switch
 }
 C 44800 41900 1 90 0 switch-pushbutton-nc-1.sym
 {
 T 45000 41450 5 10 0 0 90 0 1
 device=SWITCH_PUSHBUTTON_NC
 T 44450 42300 5 10 1 1 90 0 1
-refdes=SL
+refdes=SEL
+T 41500 41900 5 10 0 0 0 0 1
+footprint=switch
 }
 C 45400 41900 1 90 0 switch-pushbutton-nc-1.sym
 {
@@ -399,11 +411,15 @@ T 45600 41450 5 10 0 0 90 0 1
 device=SWITCH_PUSHBUTTON_NC
 T 45050 42300 5 10 1 1 90 0 1
 refdes=SB
+T 41500 41900 5 10 0 0 0 0 1
+footprint=switch
 }
 C 46100 41900 1 90 0 switch-pushbutton-nc-1.sym
 {
 T 46300 41450 5 10 0 0 90 0 1
 device=SWITCH_PUSHBUTTON_NC
 T 45750 42300 5 10 1 1 90 0 1
-refdes=SB
+refdes=SA
+T 41500 41900 5 10 0 0 0 0 1
+footprint=switch
 }
