@@ -6,11 +6,11 @@ FileVersion[20091103]
 PCB["" 1000.00mil 500.00mil]
 
 Grid[500.000000 0.0000 0.0000 1]
-Cursor[140.00mil 30.00mil 0.000000]
+Cursor[0.0000 0.0000 0.000000]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 8.00mil 13.00mil 7.00mil]
-Flags("showdrc,nameonpcb,clearnew,snappin")
+Flags("showdrc,nameonpcb,clearnew,snappin,showmask")
 Groups("1,c:2,s:3:4:5:6:7:8")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
 
@@ -815,7 +815,7 @@ Element["" "switch" "SA" "unknown" 23.2745mm 11.2946mm -0.8517mm -2.3137mm 0 100
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-19.29mil -0.22mil 16.15mil -0.22mil 30.00mil 20.00mil 50.00mil "1" "1" "square,warn,edge2"]
+	Pad[-19.29mil -0.22mil 16.15mil -0.22mil 30.00mil 20.00mil 50.00mil "1" "1" "square,edge2"]
 	Pad[-19.47mil -133.73mil 15.97mil -133.73mil 30.00mil 20.00mil 50.00mil "2" "2" "square"]
 	ElementLine [-50.96mil -7.99mil -43.09mil -7.99mil 10.00mil]
 	ElementLine [-50.96mil -126.10mil -50.96mil -7.99mil 10.00mil]
@@ -826,7 +826,7 @@ Element["" "switch" "SA" "unknown" 23.2745mm 11.2946mm -0.8517mm -2.3137mm 0 100
 
 	)
 
-Element["" "0805" "R1" "unknown" 690.00mil 399.57mil -0.8155mm 0.2583mm 1 100 ""]
+Element["" "0805" "R1" "unknown" 690.00mil 399.57mil -0.7554mm -3.0906mm 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -840,7 +840,7 @@ Element["" "0805" "R1" "unknown" 690.00mil 399.57mil -0.8155mm 0.2583mm 1 100 ""
 
 	)
 
-Element["" "0805" "R2" "unknown" 910.00mil 179.57mil -0.7626mm -0.1184mm 1 100 ""]
+Element["" "0805" "R2" "unknown" 910.00mil 179.57mil -0.7597mm -3.1647mm 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -872,7 +872,7 @@ Element["" "switch" "SB" "unknown" 20.5246mm 11.2946mm -0.8998mm -2.3573mm 0 100
 
 	)
 
-Element["" "switch" "SD" "unknown" 5.2249mm 432.45mil -0.9374mm -2.4434mm 0 100 ""]
+Element["" "switch" "SD" "unknown" 5.2249mm 432.45mil -0.8104mm -2.4434mm 0 100 ""]
 (
 	Attribute("device" "SWITCH_PUSHBUTTON_NC")
 	Attribute("manufacturer" "unknown")
@@ -922,7 +922,7 @@ Element["" "TSSOP-65P-640L1-16N" "U?" "unknown" 18.6810mm 3.8189mm -1.0958mm -2.
 	Pad[-121.85mil 12.79mil -94.67mil 12.79mil 16.14mil 20.00mil 36.14mil "I3" "5" "square"]
 	Pad[-121.85mil 38.38mil -94.67mil 38.38mil 16.14mil 20.00mil 36.14mil "I2" "6" "square"]
 	Pad[-121.85mil 63.97mil -94.67mil 63.97mil 16.14mil 20.00mil 36.14mil "I1" "7" "square"]
-	Pad[-121.85mil 89.56mil -94.67mil 89.56mil 16.14mil 20.00mil 36.14mil "" "8" "square,warn"]
+	Pad[-121.85mil 89.56mil -94.67mil 89.56mil 16.14mil 20.00mil 36.14mil "" "8" "square"]
 	Pad[94.67mil 89.56mil 121.85mil 89.56mil 16.14mil 20.00mil 36.14mil "Parallel/_Serial_" "9" "square,edge2"]
 	Pad[94.67mil 63.97mil 121.85mil 63.97mil 16.14mil 20.00mil 36.14mil "CLK" "10" "square,edge2"]
 	Pad[94.67mil 38.38mil 121.85mil 38.38mil 16.14mil 20.00mil 36.14mil "Serial In" "11" "square,edge2"]
@@ -977,7 +977,7 @@ Element["" "switch" "SEL" "unknown" 466.75mil 443.73mil -1.0979mm -2.4246mm 0 10
 
 	)
 
-Element["" "746X101333JP" "R3" "unknown" 6.7966mm 12.1070mm 1.0000mm -0.5600mm 1 100 ""]
+Element["" "746X101333JP" "R3" "unknown" 6.7966mm 12.1070mm 0.7460mm -0.9410mm 1 100 ""]
 (
 	Attribute("device" "RESISTORPACK_9")
 	Attribute("manufacturer" "unknown")
@@ -997,7 +997,7 @@ Element["" "746X101333JP" "R3" "unknown" 6.7966mm 12.1070mm 1.0000mm -0.5600mm 1
 
 	)
 
-Element["" "switch" "SU" "unknown" 5.1985mm 5.4967mm -0.6734mm -2.4823mm 0 100 ""]
+Element["" "switch" "SU" "unknown" 5.1985mm 5.4967mm -0.8004mm -2.4823mm 0 100 ""]
 (
 	Attribute("device" "SWITCH_PUSHBUTTON_NC")
 	Attribute("manufacturer" "unknown")
