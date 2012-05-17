@@ -9,13 +9,19 @@ do
   echo "Creating $image_file from $file"
   image_script_base="image.scm"
   image_script=""
-  image_script0="~/.git_hooks/resources/$image_script_base"
-  image_script1="git_hooks/resources/$image_script_base"
+  image_script0="`pwd`/git_hooks/resources/$image_script_base"
+  image_script1="~/.git_hooks/resources/$image_script_base"
+  image_script2="`which gschem | sed 's|bin/gschem|share/gEDA/scheme/|'`$image_script_base"
   # TODO: check the default install of gschem (/usr/share/gEDA/scheme/image.scm in Arch Linux)
   if [ -f "$image_script0" ]
+  then
     image_script="$image_script0"
   elif [ -f "$image_script1" ]
+  then
     image_script="$image_script1"
+  elif [ -f "$image_script2" ]
+  then
+    image_script="$image_script2"
   else
     echo "Error: could not find '$image_script_base' for gschem image generation"
     exit 1
