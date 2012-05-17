@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# Create a .png of the front and back of all gEDA PCB .pcb files in the repository
+DPI=600
+pcb_files=`git diff-index --cached --name-only HEAD | egrep -i "*.pcb$"`
+for file in $pcb_files
+do
+  front_png_file=`echo "$file" | sed "s/\.pcb/_front.png/"`
+  echo "Creating $front_png_file from $file"
+  pcb -x png --dpi $DPI --use-alpha --photo-mode --outfile $front_png_file $file
+
+  back_png_file=`echo "$file" | sed "s/\.pcb/_back.png/"`
+  echo "Creating $back_png_file from $file"
+  pcb -x png --dpi $DPI --use-alpha --photo-mode --photo-flip-x --outfile $back_png_file $file
+
+  echo "Adding PNGs to staging area"
+  git add $front_png_file
+  git add $back_png_file
+done

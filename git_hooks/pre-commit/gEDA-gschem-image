@@ -1,0 +1,28 @@
+#!/bin/sh
+
+# Create a .png of the gschem .sch files in the repository
+sch_files=`git diff-index --cached --name-only HEAD | egrep -i "*.sch$"`
+for file in $sch_files
+do
+  image_file=`echo "$file" | sed "s/\.sch/.png/"`
+  image_file_base=`basename "$image_file"`
+  echo "Creating $image_file from $file"
+  image_script_base="image.scm"
+  image_script=""
+  image_script0="~/.git_hooks/resources/$image_script_base"
+  image_script1="git_hooks/resources/$image_script_base"
+  # TODO: check the default install of gschem (/usr/share/gEDA/scheme/image.scm in Arch Linux)
+  if [ -f "$image_script0" ]
+    image_script="$image_script0"
+  elif [ -f "$image_script1" ]
+    image_script="$image_script1"
+  else
+    echo "Error: could not find '$image_script_base' for gschem image generation"
+    exit 1
+  fi
+
+  gschem -p -o "$image_file_base" -s "$image_script" "$file"
+
+  echo "Adding image files to staging area"
+  git add $image_file
+done
