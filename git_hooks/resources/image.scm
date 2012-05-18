@@ -7,7 +7,7 @@
 ;;
 ;; The schematic in "mysch.sch" will be exported to the file "mysch.png"
 
-(image-size 1024 768)
+(image-size 1500 1200)
 ;(image-size 3200 2400)
 (image-color "enabled")
 ;(image-color "disabled")

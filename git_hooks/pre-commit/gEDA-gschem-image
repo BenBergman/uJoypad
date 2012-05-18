@@ -26,6 +26,7 @@ do
     echo "Error: could not find '$image_script_base' for gschem image generation"
     exit 1
   fi
+  echo "  Using $image_script"
 
   gschem -p -o "$image_file_base" -s "$image_script" "$file"
 
