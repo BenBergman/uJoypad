@@ -6,7 +6,7 @@ FileVersion[20091103]
 PCB["" 1000.00mil 500.00mil]
 
 Grid[500.000000 0.0000 0.0000 0]
-Cursor[0.0000 0.0000 0.000000]
+Cursor[1000.00mil 0.0000 0.000000]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 8.00mil 13.00mil 7.00mil]
@@ -1221,6 +1221,98 @@ Layer(8 "signal4")
 )
 Layer(9 "silk")
 (
+	Polygon("clearpoly")
+	(
+		[1000.00mil 241.99mil] [1000.00mil 254.04mil] [988.01mil 254.04mil] [976.02mil 254.04mil] [976.02mil 266.52mil] 
+		[976.02mil 278.99mil] [963.49mil 278.99mil] [951.01mil 278.99mil] [951.01mil 266.52mil] [951.01mil 254.04mil] 
+		[939.02mil 254.04mil] [926.98mil 254.04mil] [926.98mil 266.52mil] [926.98mil 278.99mil] [939.02mil 278.99mil] 
+		[951.01mil 278.99mil] [951.01mil 291.04mil] [951.01mil 303.03mil] [963.49mil 303.03mil] [976.02mil 303.03mil] 
+		[976.02mil 291.04mil] [976.02mil 278.99mil] [988.01mil 278.99mil] [1000.00mil 278.99mil] [1000.00mil 327.50mil] 
+		[1000.00mil 376.00mil] [975.48mil 376.00mil] [951.01mil 376.00mil] [951.01mil 400.52mil] [951.01mil 424.99mil] 
+		[939.02mil 424.99mil] [926.98mil 424.99mil] [926.98mil 400.52mil] [926.98mil 376.00mil] [902.51mil 376.00mil] 
+		[877.99mil 376.00mil] [877.99mil 400.52mil] [877.99mil 424.99mil] [889.98mil 424.99mil] [902.02mil 424.99mil] 
+		[902.02mil 437.03mil] [902.02mil 449.02mil] [926.49mil 449.02mil] [951.01mil 449.02mil] [951.01mil 461.50mil] 
+		[951.01mil 474.04mil] [975.48mil 474.04mil] [1000.00mil 474.04mil] [1000.00mil 486.03mil] [1000.00mil 498.02mil] 
+		[926.98mil 498.02mil] [854.01mil 498.02mil] [854.01mil 461.50mil] [854.01mil 424.99mil] [21.0690mm 424.99mil] 
+		[805.02mil 424.99mil] [805.02mil 449.51mil] [805.02mil 474.04mil] [792.49mil 474.04mil] [780.01mil 474.04mil] 
+		[780.01mil 352.02mil] [805.02mil 327.01mil] [817.01mil 327.01mil] [829.00mil 327.01mil] [854.01mil 327.01mil] 
+		[866.00mil 327.01mil] [877.99mil 327.01mil] [877.99mil 315.02mil] [877.99mil 303.03mil] [866.00mil 303.03mil] 
+		[854.01mil 303.03mil] [854.01mil 315.02mil] [854.01mil 327.01mil] [829.00mil 327.01mil] [829.00mil 315.02mil] 
+		[829.00mil 303.03mil] [817.01mil 303.03mil] [805.02mil 303.03mil] [805.02mil 315.02mil] [805.02mil 327.01mil] 
+		[780.01mil 352.02mil] [780.01mil 230.00mil] [21.9840mm 230.00mil] [951.01mil 230.00mil] [951.01mil 241.99mil] 
+		[951.01mil 254.04mil] [963.49mil 254.04mil] [976.02mil 254.04mil] [976.02mil 241.99mil] [976.02mil 230.00mil] 
+		[988.01mil 230.00mil] [1000.00mil 230.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[731.99mil 364.01mil] [731.99mil 498.02mil] [17.9710mm 498.02mil] [683.00mil 498.02mil] [683.00mil 486.03mil] 
+		[683.00mil 474.04mil] [694.99mil 474.04mil] [706.98mil 474.04mil] [706.98mil 352.02mil] [706.98mil 230.00mil] 
+		[719.51mil 230.00mil] [731.99mil 230.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[610.03mil 241.99mil] [610.03mil 254.04mil] [597.50mil 254.04mil] [585.02mil 254.04mil] [585.02mil 376.00mil] 
+		[585.02mil 498.02mil] [536.52mil 498.02mil] [488.01mil 498.02mil] [488.01mil 461.50mil] [488.01mil 424.99mil] 
+		[13.0170mm 424.99mil] [537.01mil 424.99mil] [537.01mil 413.00mil] [537.01mil 401.01mil] [549.00mil 401.01mil] 
+		[560.99mil 401.01mil] [560.99mil 315.51mil] [560.99mil 230.00mil] [14.8720mm 230.00mil] [610.03mil 230.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[512.00mil 315.51mil] [512.00mil 401.01mil] [500.00mil 401.01mil] [488.01mil 401.01mil] [488.01mil 315.51mil] 
+		[488.01mil 230.00mil] [500.00mil 230.00mil] [512.00mil 230.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[439.02mil 364.01mil] [439.02mil 498.02mil] [426.98mil 498.02mil] [414.99mil 498.02mil] [414.99mil 364.01mil] 
+		[414.99mil 230.00mil] [426.98mil 230.00mil] [439.02mil 230.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[317.01mil 241.99mil] [317.01mil 254.04mil] [305.02mil 254.04mil] [7.4430mm 254.04mil] [7.4430mm 339.54mil] 
+		[7.4430mm 424.99mil] [8.3690mm 424.99mil] [366.00mil 424.99mil] [366.00mil 461.50mil] [366.00mil 498.02mil] 
+		[317.01mil 498.02mil] [268.02mil 498.02mil] [268.02mil 364.01mil] [268.02mil 230.00mil] [292.49mil 230.00mil] 
+		[317.01mil 230.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[171.01mil 241.99mil] [171.01mil 254.04mil] [158.48mil 254.04mil] [146.00mil 254.04mil] [146.00mil 376.00mil] 
+		[146.00mil 498.02mil] [134.01mil 498.02mil] [122.02mil 498.02mil] [122.02mil 364.01mil] [122.02mil 230.00mil] 
+		[146.49mil 230.00mil] [171.01mil 230.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[23.99mil 241.99mil] [23.99mil 254.04mil] [12.00mil 254.04mil] [0.0000 254.04mil] [0.0000 241.99mil] 
+		[0.0000 230.00mil] [12.00mil 230.00mil] [23.99mil 230.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[659.02mil 364.01mil] [659.02mil 474.04mil] [646.49mil 474.04mil] [634.01mil 474.04mil] [634.01mil 364.01mil] 
+		[634.01mil 254.04mil] [646.49mil 254.04mil] [659.02mil 254.04mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[366.00mil 327.50mil] [366.00mil 401.01mil] [353.52mil 401.01mil] [340.99mil 401.01mil] [340.99mil 327.50mil] 
+		[340.99mil 254.04mil] [353.52mil 254.04mil] [366.00mil 254.04mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[220.00mil 327.50mil] [220.00mil 401.01mil] [5.2710mm 401.01mil] [194.99mil 401.01mil] [194.99mil 327.50mil] 
+		[194.99mil 254.04mil] [5.2710mm 254.04mil] [220.00mil 254.04mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[1.8550mm 364.01mil] [1.8550mm 474.04mil] [60.99mil 474.04mil] [49.00mil 474.04mil] [49.00mil 364.01mil] 
+		[49.00mil 254.04mil] [60.99mil 254.04mil] [1.8550mm 254.04mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[220.00mil 461.50mil] [220.00mil 498.02mil] [5.2710mm 498.02mil] [194.99mil 498.02mil] [194.99mil 461.50mil] 
+		[194.99mil 424.99mil] [5.2710mm 424.99mil] [220.00mil 424.99mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[1000.00mil 0.0000] [0.0000 0.0000] [0.0000 230.00mil] [1000.00mil 230.00mil] 
+	)
 )
 Layer(10 "silk")
 (
