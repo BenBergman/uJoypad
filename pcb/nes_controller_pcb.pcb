@@ -1221,6 +1221,130 @@ Layer(8 "signal4")
 )
 Layer(9 "silk")
 (
+	Polygon("clearpoly")
+	(
+		[999.22mil 6.5626mm] [24.7602mm 6.5626mm] [24.7602mm 7.1826mm] [999.22mil 7.1826mm] [999.22mil 6.5626mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[24.7602mm 233.95mil] [24.1402mm 233.95mil] [24.1402mm 6.5626mm] [24.7602mm 6.5626mm] [24.7602mm 233.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[24.1402mm 6.5626mm] [926.09mil 6.5626mm] [926.09mil 7.1826mm] [24.1402mm 7.1826mm] [24.1402mm 6.5626mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[24.7602mm 7.1826mm] [24.1402mm 7.1826mm] [24.1402mm 7.8001mm] [24.7602mm 7.8001mm] [24.7602mm 7.1826mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[877.26mil 7.8001mm] [852.85mil 7.8001mm] [852.85mil 8.4201mm] [877.26mil 8.4201mm] [877.26mil 7.8001mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[828.43mil 7.8001mm] [804.13mil 7.8001mm] [804.13mil 8.4201mm] [828.43mil 8.4201mm] [828.43mil 7.8001mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[999.22mil 380.33mil] [24.1402mm 380.33mil] [24.1402mm 477.82mil] [999.22mil 477.82mil] [999.22mil 380.33mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[24.1402mm 428.99mil] [901.68mil 428.99mil] [901.68mil 453.41mil] [24.1402mm 453.41mil] [24.1402mm 428.99mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[926.09mil 380.33mil] [877.26mil 380.33mil] [877.26mil 429.05mil] [926.09mil 429.05mil] [926.09mil 380.33mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[852.85mil 428.99mil] [804.13mil 428.99mil] [804.13mil 502.24mil] [852.85mil 502.24mil] [852.85mil 428.99mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[19.8062mm 233.95mil] [730.89mil 233.95mil] [730.89mil 502.24mil] [19.8062mm 502.24mil] [19.8062mm 233.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[20.4262mm 477.82mil] [19.8062mm 477.82mil] [19.8062mm 502.24mil] [20.4262mm 502.24mil] [20.4262mm 477.82mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[706.47mil 233.95mil] [657.75mil 233.95mil] [657.75mil 477.82mil] [706.47mil 477.82mil] [706.47mil 233.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[682.22mil 477.82mil] [584.57mil 477.82mil] [584.57mil 502.24mil] [682.22mil 502.24mil] [682.22mil 477.82mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[633.39mil 6.5626mm] [584.57mil 6.5626mm] [584.57mil 477.82mil] [633.39mil 477.82mil] [633.39mil 6.5626mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[657.81mil 233.95mil] [608.98mil 233.95mil] [608.98mil 6.5626mm] [657.81mil 6.5626mm] [657.81mil 233.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[560.26mil 233.95mil] [511.43mil 233.95mil] [511.43mil 404.74mil] [560.26mil 404.74mil] [560.26mil 233.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[535.85mil 404.74mil] [487.02mil 404.74mil] [487.02mil 429.05mil] [535.85mil 429.05mil] [535.85mil 404.74mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[487.02mil 233.95mil] [438.30mil 233.95mil] [438.30mil 502.24mil] [487.02mil 502.24mil] [487.02mil 233.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[413.94mil 233.95mil] [365.06mil 233.95mil] [365.06mil 502.24mil] [413.94mil 502.24mil] [413.94mil 233.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[365.06mil 233.95mil] [316.34mil 233.95mil] [316.34mil 6.5626mm] [365.06mil 6.5626mm] [365.06mil 233.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[340.64mil 6.5626mm] [291.92mil 6.5626mm] [291.92mil 429.05mil] [340.64mil 429.05mil] [340.64mil 6.5626mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[365.06mil 404.74mil] [340.64mil 404.74mil] [340.64mil 429.05mil] [365.06mil 429.05mil] [365.06mil 404.74mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[267.56mil 233.95mil] [170.02mil 233.95mil] [170.02mil 6.5626mm] [267.56mil 6.5626mm] [267.56mil 233.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[267.56mil 6.5626mm] [218.68mil 6.5626mm] [218.68mil 502.24mil] [267.56mil 502.24mil] [267.56mil 6.5626mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[218.68mil 404.74mil] [194.43mil 404.74mil] [194.43mil 429.05mil] [218.68mil 429.05mil] [218.68mil 404.74mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[194.43mil 6.5626mm] [145.60mil 6.5626mm] [145.60mil 502.24mil] [194.43mil 502.24mil] [194.43mil 6.5626mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[121.19mil 233.95mil] [72.47mil 233.95mil] [72.47mil 502.24mil] [121.19mil 502.24mil] [121.19mil 233.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[72.47mil 233.95mil] [23.64mil 233.95mil] [23.64mil 6.5626mm] [72.47mil 6.5626mm] [72.47mil 233.95mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[48.05mil 6.5626mm] [-0.78mil 6.5626mm] [-0.78mil 502.24mil] [48.05mil 502.24mil] [48.05mil 6.5626mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[72.47mil 477.82mil] [48.05mil 477.82mil] [48.05mil 502.24mil] [72.47mil 502.24mil] [72.47mil 477.82mil] 
+	)
 )
 Layer(10 "silk")
 (
