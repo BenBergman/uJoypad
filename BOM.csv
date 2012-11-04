@@ -1,0 +1,11 @@
+description,unit price,quantity,quantity price,part number,
+button,$1.03,8,$8.24,B3U-1000P,http://www.digikey.com/product-detail/en/B3U-1000P/SW1020CT-ND/1534357
+,,,,,http://ca.mouser.com/Search/ProductDetail.aspx?R=B3U-1000Pvirtualkey65300000virtualkey653-B3U-1000P
+shift register,$0.45,1,$0.45,CD4021BPWR,http://ca.mouser.com/ProductDetail/Texas-Instruments/CD4021BPWR/?qs=gqbMQSs93zMKvzAoGg%2flVh90ZskZ2EgygWpL589egz0%3d
+,,,,,http://www.digikey.com/product-detail/en/CD4021BPWR/296-14256-1-ND/528344
+resistor array (~10k-47k),$0.47,1,$0.47,746X101333JP,http://www.digikey.com/product-detail/en/746X101333JP/746X101333JPCT-ND/1118433
+resistor (~3.6k),$0.10,2,$0.20,,
+cable,$0.50,1,$0.50,,
+PCB,$1.00,1,$1.00,,
+case,,1,$0.00,,
+,,,$10.86,,
