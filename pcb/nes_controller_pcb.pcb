@@ -6,7 +6,7 @@ FileVersion[20091103]
 PCB["" 1000.00mil 500.00mil]
 
 Grid[500.000000 0.0000 0.0000 0]
-Cursor[1000.00mil 0.0000 0.000000]
+Cursor[0.0000 55.00mil 0.000000]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 8.00mil 13.00mil 7.00mil]
@@ -1216,8 +1216,13 @@ Layer(6 "signal2")
 Layer(7 "signal3")
 (
 )
-Layer(8 "signal4")
+Layer(8 "outline")
 (
+	Line[0.0000 0.0000 0.0000 500.00mil 10.00mil 20.00mil "clearline"]
+	Line[0.0000 500.00mil 998.02mil 500.00mil 10.00mil 20.00mil "clearline"]
+	Line[998.02mil 500.00mil 1000.00mil 498.02mil 10.00mil 20.00mil "clearline"]
+	Line[1000.00mil 498.02mil 1000.00mil 0.0000 10.00mil 20.00mil "clearline"]
+	Line[1000.00mil 0.0000 0.0000 0.0000 10.00mil 20.00mil "clearline"]
 )
 Layer(9 "silk")
 (
